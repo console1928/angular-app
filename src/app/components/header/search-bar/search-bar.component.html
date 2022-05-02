@@ -2,12 +2,13 @@
   [ngClass]="'angular-app-input'"
   placeholder="Start typing person name"
   (focus)="onFocus()"
-  (blur)="onBlur()"
   (input)="onInputChange($event.target.value)"
+  #input
 />
 <button [ngClass]="'angular-app-search-button'">Search</button>
 <app-search-results
   *ngIf="searchResultsIsShowing"
   [ngClass]="'angular-app-search-results'"
   [person]="person"
+  #searchResults
 ></app-search-results>
