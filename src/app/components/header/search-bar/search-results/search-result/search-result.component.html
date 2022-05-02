@@ -1,0 +1,13 @@
+<div class="angular-app-search-result">
+  <img
+    class="angular-app-search-result-img"
+    [src]="imgBaseUrl + personResult.profile_path"
+    (error)="onError($event)"
+    />
+  <div>
+    <div>{{ personResult.name }}</div>
+    <div>
+      <p class="angular-app-known-for-item">{{ personMovies }}</p>
+    </div>
+  </div>
+</div>

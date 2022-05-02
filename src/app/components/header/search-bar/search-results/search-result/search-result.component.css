@@ -1,0 +1,29 @@
+.angular-app-search-result {
+  display: flex;
+  align-items: center;
+  padding: 5px 20px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.angular-app-search-result:hover {
+  background-color: rgb(228, 228, 228);
+}
+
+.angular-app-search-result:active {
+  background-color: rgb(214, 214, 214);
+}
+
+.angular-app-search-result-img {
+  height: 50px;
+  margin-right: 10px;
+}
+
+.angular-app-known-for-item {
+  display: inline-block;
+  margin: 3px 5px 0px 0px;
+  font-size: 12px;
+  color: #8d8d8d;
+}

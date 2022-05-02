@@ -1,0 +1,9 @@
+.angular-app-search-bar {
+  width: 50%;
+  height: 40px;
+  margin: 0 auto;
+  max-width: 800px;
+  min-width: 200px;
+  border-radius: 5px;
+  white-space:  nowrap;
+}
